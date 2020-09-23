@@ -1,9 +1,15 @@
 # Dynamic Programming using Java
-Dynamic Programming using Java is a repository where I will be using Java to solve some of the most popular dynamic programming problems.
+Dynamic Programming using Java is a repository where I will be using Java to solve some of the most popular dynamic programming problems. I wish to continue this for the next few months.
 
 ## Objectives
 
-Learning Dynamic Programming Approach for real-life problems
+Learning Dynamic Programming Approach for real-life problems.
+
+1. Recursive approach
+2. Memoization approach
+3. Tabulation approach
+
+Trying to build the skills on the above approaches.
 
 ## Developer
 
