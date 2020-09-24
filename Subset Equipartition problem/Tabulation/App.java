@@ -34,3 +34,7 @@ class App {
       System.out.println(subsetEquipartitionProblem(arr, sum, arr.length));
    }
 }
+// output
+// [2, 3, 8, 6]
+// 11  
+// true
