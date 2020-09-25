@@ -20,6 +20,8 @@ class App {
       for (int i = 1; i < n + 1; i++) {
          for (int j = 0; j < w + 1; j++) {
             if (wt[i - 1] <= j) {
+               // t[i][j-wt[i-1]]
+               // because we can again take this item
                t[i][j] = Math.max(val[i - 1] + t[i][j - wt[i - 1]], t[i - 1][j]);
             } else {
                t[i][j] = t[i - 1][j];
