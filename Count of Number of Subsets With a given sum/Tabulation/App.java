@@ -1,3 +1,12 @@
+// Count of subsets sum with a Given sum
+// Given an array arr[] of length N and an integer X, the task is to find the number of subsets with sum equal to X.
+// Example:
+
+// Input: arr[] = {1, 2, 3, 3}, X = 6
+// Output: 3
+// All the possible subsets are {1, 2, 3},
+// {1, 2, 3} and {3, 3}
+
 import java.util.Arrays;
 
 class App {
