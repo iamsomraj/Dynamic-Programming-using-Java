@@ -19,7 +19,7 @@ class App {
    }
 
    public static void main(String[] args) {
-      int arr[] = { 7, 8, 13, 12, 24, 25 };
+      int arr[] = { 1, 1, 2, 3 };
       System.out.println(Arrays.toString(arr));
       int diff = 1;
       System.out.println(diff);
@@ -47,6 +47,6 @@ class App {
 }
 
 // output
-// [7, 8, 13, 12, 24, 25]
+// [1,1,2,3]
 // 1
 // 3
