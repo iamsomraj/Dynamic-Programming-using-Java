@@ -20,7 +20,6 @@ public class App {
       if (arr[number - 1] <= sum) {
          t[number][sum] = countOfSubset(arr, sum - arr[number - 1], number - 1) + countOfSubset(arr, sum, number - 1);
          return t[number][sum];
-
       } else {
          t[number][sum] = countOfSubset(arr, sum, number - 1);
          return t[number][sum];
