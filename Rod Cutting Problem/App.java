@@ -11,6 +11,8 @@ import java.util.Arrays;
 // --------------------------------------------
 // price    | 3   5   8   9  10  17  17  20
 
+// variant of unbounded knapsack
+
 class App {
 
    static int t[][];
